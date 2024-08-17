@@ -24,6 +24,6 @@ class ProductForm(forms.ModelForm):
                 attrs={'placeholder':'e.g. 19.99', 'class':'form-control'}),
             'quantity':forms.NumberInput(
                 attrs={'placeholder':'e.g. 10', 'class':'form-control'}),
-            'supplier':forms.NumberInput(
+            'supplier':forms.TextInput(
                 attrs={'placeholder':'e.g. ABC Corp', 'class':'form-control'}),
         }
